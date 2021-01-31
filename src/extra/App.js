@@ -1,3 +1,6 @@
+// we don't actually need App.js since App is defined in index.js
+
+
 import logo from './logo.svg';
 import './App.css';
 
