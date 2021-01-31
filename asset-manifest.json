@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/migrants-2020/static/js/main.5c9b6098.chunk.js",
+    "main.js.map": "/migrants-2020/static/js/main.5c9b6098.chunk.js.map",
+    "runtime-main.js": "/migrants-2020/static/js/runtime-main.d0ccc27e.js",
+    "runtime-main.js.map": "/migrants-2020/static/js/runtime-main.d0ccc27e.js.map",
+    "static/js/2.757e27f8.chunk.js": "/migrants-2020/static/js/2.757e27f8.chunk.js",
+    "static/js/2.757e27f8.chunk.js.map": "/migrants-2020/static/js/2.757e27f8.chunk.js.map",
+    "index.html": "/migrants-2020/index.html",
+    "static/js/2.757e27f8.chunk.js.LICENSE.txt": "/migrants-2020/static/js/2.757e27f8.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d0ccc27e.js",
+    "static/js/2.757e27f8.chunk.js",
+    "static/js/main.5c9b6098.chunk.js"
+  ]
+}

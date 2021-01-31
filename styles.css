@@ -1,0 +1,39 @@
+body {
+  margin: 0; 
+  overflow: hidden;
+  font-family: 'Poppins', sans-serif;
+}
+pre {
+  font-size: 7em;
+}
+
+/*to select all line elements that are children of elements with class "tick"*/
+.marks .sphere {
+  fill: #fbfbfb;
+}
+.marks .land {
+  fill: #ececec;
+}
+.marks .interiors {
+  fill: none;
+  stroke: #c3c3c3;
+}
+.marks .graticules, .tick line {
+  fill: none;
+  stroke: #b4bdc130;
+}
+circle {
+  fill: #137880;
+  opacity: 0.3;
+}
+.tick text {
+  fill: #635F5D;
+  font-size: 0.5em;
+}
+.marks rect {
+  fill: #137880;
+}
+.axis-label {
+  font-size: 0.5em;
+  fill: #635F5D;
+}
