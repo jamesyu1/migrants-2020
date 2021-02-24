@@ -24,7 +24,7 @@ pre {
 }
 circle {
   fill: #137880;
-  opacity: 0.3;
+  opacity: 0.2;
 }
 .tick text {
   fill: #635F5D;
@@ -36,4 +36,26 @@ circle {
 .axis-label {
   font-size: 0.5em;
   fill: #635F5D;
+}
+.container {
+  position: relative;
+}
+.title-text {
+  font-family: 'Noto Serif SC';
+  font-weight: 600;
+  position: absolute;
+  max-width: 600px;
+  font-size: 3.7em;
+  top: 5px;
+  left: 20px;
+}
+.subtitle-text {
+  font-family: 'Noto Serif SC';
+  font-weight: 400;
+  position: absolute;
+  max-width: 600px;
+  line-height: 1.5em;
+  font-size: 0.9em;
+  top: 85px;
+  left: 20px;
 }
