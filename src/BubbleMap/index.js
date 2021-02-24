@@ -3,7 +3,7 @@ import { Marks } from './Marks';
 import { max, scaleSqrt } from 'd3';
 
 const sizeValue = d => d['Total Dead and Missing'];
-const maxRadius = 15;
+const maxRadius = 25;
 
 export const BubbleMap = ({data, filteredData, worldAtlas, width, height}) => {
 

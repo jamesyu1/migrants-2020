@@ -28,20 +28,28 @@ const App = () => {
   }) : data;
   
   return (
-    <svg 
-      width={width} height={height}
-    >
-      <BubbleMap 
-        data={data}
-        filteredData={filteredData} 
-        worldAtlas={worldAtlas}
-        width={width}
-        height={height}
-      />
-      <g transform={`translate(0, ${height - height*dateHistogramSize})`}>
-        <DateHistogram data={data} width={width} height={height*dateHistogramSize} setBrushExtent={setBrushExtent} xValue={xValue}/>
-      </g>
-    </svg>
+    <div class="container">
+      <svg 
+        width={width} height={height}
+      >
+        <BubbleMap 
+          data={data}
+          filteredData={filteredData} 
+          worldAtlas={worldAtlas}
+          width={width}
+          height={height}
+        />
+        <g transform={`translate(0, ${height - height*dateHistogramSize})`}>
+          <DateHistogram data={data} width={width} height={height*dateHistogramSize} setBrushExtent={setBrushExtent} xValue={xValue}/>
+        </g>
+      </svg>
+      <div class="title-text">
+        <text>Cast Out</text>
+      </div>
+      <div class="subtitle-text">
+        <text>Missing migrants and their origins. Brush to select a time period in the chart, drag to see changes over time</text>
+      </div>
+    </div>
   );
 };
 
