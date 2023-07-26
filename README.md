@@ -1,1 +1,1 @@
-This is a rough datavis project to test out github pages
+This is a datavis project to test out github pages
